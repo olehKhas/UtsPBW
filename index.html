@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS PBW</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="bulat"></div>
+<div class="bulat2"></div>
+<div class="container">
+    <div class="judul">
+        <h1>Form Data Mahasiswa</h1>
+    </div>
+    <div class="form">
+  <form>
+      <table>
+          <tr>
+              <td>Nama</td>
+              <td>:</td>
+              <td><input type="text" class="nama" placeholder="Masukan Nama Anda" required></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiNama"></div></td>
+        </tr>
+          <tr>
+              <td>Npm</td>
+              <td>:</td>
+              <td><input type="number" class="npm" placeholder="Masukan NPM Anda"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiNpm"></div></td>
+        </tr>
+          <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+                <select class="agama">
+                    <option value="0">Pilih Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Protestan">Protestan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiAgama"></div></td>
+        </tr>
+          <tr>
+            <td>Tempat Lahir</td>
+            <td>:</td>
+            <td><input type="text" class="tmpt" placeholder="Tempat Lahir"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiTmpt"></div></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="date" class="tgl"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="jenisKelamin" value="Laki-Laki" id="1">Laki-Laki</input> <input type="radio" name="jenisKelamin" value="Perempuan" id="2">Perempuan</input></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea placeholder="Alamat" class="alamat"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiAlamat"></div></td>
+        </tr>
+        <tr>
+            <td>Jurusan</td>
+            <td>:</td>
+            <td>
+                <select class="jurusan">
+                    <option value="0">Pilih Jurusan</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Sistem Komputer">Sistem Komputer</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Akuntansi">Akuntansi</option>
+                    <option value="Management">Management</option>
+                    <option value="Psikologi">Psikologi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><div class="validasiJurusan"></div></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="hobi" value="Futsal">Futsal</input>
+                <input type="checkbox" name="hobi" value="Sepak Bola">Sepak Bola</input>
+                <input type="checkbox" name="hobi" value="Bola Voli">Bola Voli</input>
+                <input type="checkbox" name="hobi" value="Tenis Meja">Tenis Meja</input>
+            </td>
+        </tr>
+    </table>
+  </form>
+</div>
+<div class="tombol">
+    <button class="btn">Submit</button>
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

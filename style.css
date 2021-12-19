@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: rgb(13, 201, 226);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.judul{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form{
+    padding: 20px;
+}
+
+table{
+    border-spacing: 0.5em 0.5em;
+}
+
+.tombol{
+    text-align: center;
+}
+
+.btn{
+    width: 90%;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(236, 98, 202);
+    color:  white;
+}
+
+.btn:hover{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+.nama{
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding-left: 7px;
+}
+
+.npm{
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding-left: 7px;
+}
+
+.tmpt{
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding-left: 7px;
+}
+
+.alamat{
+    width: 100%;
+    padding-left: 7px;
+}
+
+.bulat{
+    background-color: rgb(236, 98, 202);
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left: 30%;
+    bottom: 70%;
+}
+
+.bulat2{
+    background-color: rgb(0, 162, 255);
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    right: 30%;
+    top: 70%;
+}
